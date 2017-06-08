@@ -4,10 +4,10 @@ import org.junit.Test;
 
 public class TestPlanetExplorer {
 
-	@Test
+	/*@Test
 	public void test_executeCommand() {
 		fail("Not yet implemented");
-	}
+	}*/
 	
 	@Test
 	public void testProveraDaLiOdeNapredJednom()
@@ -47,6 +47,21 @@ public class TestPlanetExplorer {
 		
 		String pozicija=planeta.executeCommand(putanja);
 		assertEquals("(1,0,E)", pozicija);
+	}
+	
+	@Test
+	public void testPorveraDaLiIdeJedanLevo()
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
+		
+		planeta.setxKo(1);
+		planeta.setyKo(0);
+		
+		String putanja="l";
+		
+		String pozicija=planeta.executeCommand(putanja);
+		assertEquals("(0,0,W)", pozicija);
+		
 	}
 	
 }

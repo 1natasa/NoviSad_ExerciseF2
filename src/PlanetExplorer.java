@@ -29,7 +29,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		 
-		 String stranaSveta="";
+		 String stranaSveta="N";
 		 
 		String rezultat="";
 		String [] nizKomandi = command.split(",");
@@ -45,6 +45,10 @@ public class PlanetExplorer {
 			{
 				yKo--;
 				stranaSveta="S";
+			} else if (nizKomandi[i]=="r")
+			{
+				xKo++;
+				stranaSveta="E";
 			}
 		}
 		

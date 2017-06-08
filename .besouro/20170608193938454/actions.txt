@@ -60,3 +60,15 @@ RefactoringAction 1496946993131 TestPlanetExplorer.java RENAME testProveraDa=>vo
 RefactoringAction 1496946996145 TestPlanetExplorer.java RENAME testProveraDaLi=>void testProveraDaLiIdeDesno FIELD
 RefactoringAction 1496947000662 TestPlanetExplorer.java RENAME testProveraDaLiIdeDesno=>void testProveraDaLiIdeDesnoZaJedan() METHOD
 EditAction 1496947334062 TestPlanetExplorer.java 1145 4 17 3
+UnitTestCaseAction 1496947343425 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947343427 TestPlanetExplorer.java FAIL
+RefactoringAction 1496947347527 TestPlanetExplorer.java REMOVE test_executeCommand() METHOD
+RefactoringAction 1496947347530 TestPlanetExplorer.java REMOVE testProveraDaLiOdeNapredJednom() METHOD
+RefactoringAction 1496947347532 TestPlanetExplorer.java REMOVE testProveraDaLiIdeDesnoZaJedan() METHOD
+RefactoringAction 1496947347534 TestPlanetExplorer.java REMOVE testProveraDaLiIdeNazadZaJedan() METHOD
+RefactoringAction 1496947349545 TestPlanetExplorer.java ADD void testProveraDaLiOdeNapredJednom() METHOD
+RefactoringAction 1496947349546 TestPlanetExplorer.java ADD void testProveraDaLiIdeNazadZaJedan() METHOD
+RefactoringAction 1496947349548 TestPlanetExplorer.java ADD void testProveraDaLiIdeDesnoZaJedan() METHOD
+RefactoringAction 1496947375117 TestPlanetExplorer.java ADD void testPorveraDaLiIdeJedan FIELD
+RefactoringAction 1496947377128 TestPlanetExplorer.java RENAME testPorveraDaLiIdeJedan=>void testPorveraDaLiIdeJedanLevo() METHOD
+EditAction 1496947438359 TestPlanetExplorer.java 1433 4 22 4
