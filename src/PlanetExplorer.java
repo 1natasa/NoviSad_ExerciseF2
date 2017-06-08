@@ -27,6 +27,8 @@ public class PlanetExplorer {
 		 */
 		 int xKo=0;
 		 int yKo=0;
+		 String stranaSveta="N";
+		 
 		String rezultat="";
 		String [] nizKomandi = command.split(",");
 		
@@ -39,12 +41,12 @@ public class PlanetExplorer {
 		}
 		
 		
-		return pozicijaNaMapi(xKo, yKo);
+		return pozicijaNaMapi(xKo, yKo,stranaSveta);
 	}
 	
-	public String pozicijaNaMapi(int x1, int y1)
+	public String pozicijaNaMapi(int x1, int y1, String stranaSveta)
 	{
-		return "(" + x1 + "," + y1 + ")";
+		return "(" + x1 + "," + y1 + "," + stranaSveta + ")";
 	}
 	
 }

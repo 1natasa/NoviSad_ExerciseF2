@@ -36,3 +36,14 @@ RefactoringAction 1496945528787 TestPlanetExplorer.java RENAME testProveraDaLiId
 RefactoringAction 1496945531800 TestPlanetExplorer.java RENAME testProveraDaLiIdeNazadZaJ=>void testProveraDaLiIdeNazadZaJedan() METHOD
 RefactoringAction 1496946398151 PlanetExplorer.java RENAME pozicijaNaMapi(int, int)=>String pozicijaNaMapi(int, int, String) METHOD
 EditAction 1496946471204 TestPlanetExplorer.java 808 3 9 2
+UnitTestCaseAction 1496946483068 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946483070 TestPlanetExplorer.java FAIL
+RefactoringAction 1496946586109 PlanetExplorer.java ADD int xKo FIELD
+RefactoringAction 1496946586111 PlanetExplorer.java ADD int yKo FIELD
+RefactoringAction 1496946599187 PlanetExplorer.java ADD int yKo/2 FIELD
+RefactoringAction 1496946604220 PlanetExplorer.java REMOVE yKo/2 FIELD
+RefactoringAction 1496946623247 PlanetExplorer.java ADD int getxKo() METHOD
+RefactoringAction 1496946623249 PlanetExplorer.java ADD void setxKo(int) METHOD
+RefactoringAction 1496946623250 PlanetExplorer.java ADD int getyKo() METHOD
+RefactoringAction 1496946623252 PlanetExplorer.java ADD void setyKo(int) METHOD
+EditAction 1496946693581 TestPlanetExplorer.java 850 3 11 2
