@@ -53,10 +53,12 @@ public class PlanetExplorer {
 			{
 				
 				xKo--;
-				if (xKo<0) 
+				
+				if (xKo < 0 ) 
 				{
 					throw new PlanetExplorerException("Ne moze da ode na -1,0 poziciju!!");
 				}
+				
 				stranaSveta="W";
 			}
 		}
