@@ -47,3 +47,8 @@ RefactoringAction 1496946623249 PlanetExplorer.java ADD void setxKo(int) METHOD
 RefactoringAction 1496946623250 PlanetExplorer.java ADD int getyKo() METHOD
 RefactoringAction 1496946623252 PlanetExplorer.java ADD void setyKo(int) METHOD
 EditAction 1496946693581 TestPlanetExplorer.java 850 3 11 2
+CompilationAction 1496946701813 TestPlanetExplorer.java
+CompilationAction 1496946701814 TestPlanetExplorer.java
+CompilationAction 1496946821206 TestPlanetExplorer.java
+CompilationAction 1496946821208 TestPlanetExplorer.java
+EditAction 1496946858805 TestPlanetExplorer.java 858 3 11 2

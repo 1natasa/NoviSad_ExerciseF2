@@ -25,11 +25,13 @@ public class TestPlanetExplorer {
 	public void testProveraDaLiIdeNazadZaJedan()
 	{
 		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
+		
 		planeta.setxKo(0);
 		planeta.setyKo(1);
+		
 		String putanja="b";
 		String pozicija=planeta.executeCommand(putanja);
-		assertEquals("(0,0)", pozicija);
+		assertEquals("(0,0,S)", pozicija);
 		
 	}
 }
