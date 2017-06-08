@@ -10,7 +10,7 @@ public class TestPlanetExplorer {
 	}*/
 	
 	@Test
-	public void testProveraDaLiOdeNapredJednom()
+	public void testProveraDaLiOdeNapredJednom() throws PlanetExplorerException
 	{
 		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
 		String putanja ="f";
@@ -22,7 +22,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testProveraDaLiIdeNazadZaJedan()
+	public void testProveraDaLiIdeNazadZaJedan() throws PlanetExplorerException
 	{
 		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
 		
@@ -36,7 +36,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test 
-	public void testProveraDaLiIdeDesnoZaJedan()
+	public void testProveraDaLiIdeDesnoZaJedan() throws PlanetExplorerException
 	{
 		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
 		
@@ -50,7 +50,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testPorveraDaLiIdeJedanLevo()
+	public void testPorveraDaLiIdeJedanLevo() throws PlanetExplorerException
 	{
 		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
 		
@@ -61,6 +61,19 @@ public class TestPlanetExplorer {
 		
 		String pozicija=planeta.executeCommand(putanja);
 		assertEquals("(0,0,W)", pozicija);
+	}
+	
+	@Test(expected=PlanetExplorerException.class)
+	public void testDaLiOdeUNedozvoljenuPoziciju()
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
+		
+		planeta.setxKo(0);
+		planeta.setyKo(0);
+		
+		String putanja="l";
+		
+		//String pozicija=planeta.executeCommand(putanja); 
 		
 	}
 	
