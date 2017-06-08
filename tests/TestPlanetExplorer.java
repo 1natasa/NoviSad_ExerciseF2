@@ -85,7 +85,7 @@ public class TestPlanetExplorer {
 		planeta.setxKo(0);
 		planeta.setyKo(0);
 		
-		String putanja="ff";
+		String putanja="f,f";
 		
 		String pozicija=planeta.executeCommand(putanja);
 		assertEquals("(0,2,N)", pozicija);
