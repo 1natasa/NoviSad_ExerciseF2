@@ -25,6 +25,8 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		 int xKo=0;
+		 int yKo=0;
 		String rezultat="";
 		String [] nizKomandi = command.split(",");
 		
@@ -32,10 +34,17 @@ public class PlanetExplorer {
 		{
 			if (nizKomandi[i]=="f")
 			{
-				
+				yKo++;
 			}
 		}
 		
-		return null;
+		
+		return pozicijaNaMapi(xKo, yKo);
 	}
+	
+	public String pozicijaNaMapi(int x1, int y1)
+	{
+		return "(" + x1 + "," + y1 + ")";
+	}
+	
 }
