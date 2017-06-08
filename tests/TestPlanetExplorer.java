@@ -92,4 +92,18 @@ public class TestPlanetExplorer {
 		assertEquals("(0,2,N)", pozicija);
 	}
 	
+	@Test(expected=PlanetExplorerException.class)
+	public void testDaLiOdeUNedozvoljenuPozicijuNaDruguStranu() throws PlanetExplorerException
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
+		
+		planeta.setxKo(2);
+		planeta.setyKo(0);
+		
+		String putanja="r";
+		
+		String pozicija=planeta.executeCommand(putanja); 
+		
+	}
+	
 }
