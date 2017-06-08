@@ -49,6 +49,10 @@ public class PlanetExplorer {
 			{
 				xKo++;
 				stranaSveta="E";
+			} else if (nizKomandi[i]=="l")
+			{
+				xKo--;
+				stranaSveta="W";
 			}
 		}
 		

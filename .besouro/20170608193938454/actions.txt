@@ -72,3 +72,4 @@ RefactoringAction 1496947349548 TestPlanetExplorer.java ADD void testProveraDaLi
 RefactoringAction 1496947375117 TestPlanetExplorer.java ADD void testPorveraDaLiIdeJedan FIELD
 RefactoringAction 1496947377128 TestPlanetExplorer.java RENAME testPorveraDaLiIdeJedan=>void testPorveraDaLiIdeJedanLevo() METHOD
 EditAction 1496947438359 TestPlanetExplorer.java 1433 4 22 4
+EditAction 1496947497411 PlanetExplorer.java 2095 7 10 0
