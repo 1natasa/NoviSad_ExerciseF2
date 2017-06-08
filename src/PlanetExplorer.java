@@ -49,6 +49,10 @@ public class PlanetExplorer {
 			} else if (nizKomandi[i]=="r")
 			{
 				xKo++;
+				if (xKo > 2)
+				{
+					throw new PlanetExplorerException("Ne moze da ode na 3,0 poziciju!!");
+				}
 				stranaSveta="E";
 			} else if (nizKomandi[i]=="l")
 			{

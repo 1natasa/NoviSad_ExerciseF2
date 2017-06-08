@@ -110,3 +110,4 @@ UnitTestSessionAction 1496948129971 TestPlanetExplorer.java FAIL
 RefactoringAction 1496948248664 TestPlanetExplorer.java ADD void testDaLiOdeUNedozvoljenuPoziciju()/2 METHOD
 RefactoringAction 1496948257683 TestPlanetExplorer.java RENAME testDaLiOdeUNedozvoljenuPoziciju()/2=>void testDaLiOdeUNedozvoljenuPozicijuNaDruguStranu() METHOD
 EditAction 1496948273618 TestPlanetExplorer.java 2532 7 38 5
+EditAction 1496948305730 PlanetExplorer.java 2359 7 10 0
