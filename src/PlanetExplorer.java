@@ -39,6 +39,7 @@ public class PlanetExplorer {
 			if (nizKomandi[i]=="f")
 			{
 				yKo++;
+				
 				stranaSveta="N";
 				
 			} else if(nizKomandi[i]=="b")
