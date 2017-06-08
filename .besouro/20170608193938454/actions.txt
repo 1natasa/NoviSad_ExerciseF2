@@ -26,3 +26,13 @@ EditAction 1496945374238 TestPlanetExplorer.java 577 2 5 1
 UnitTestCaseAction 1496945386652 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496945386655 TestPlanetExplorer.testProveraDaLiOdeNapredJednom FAIL
 EditAction 1496945461792 PlanetExplorer.java 1563 3 7 0
+UnitTestCaseAction 1496945473318 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496945473320 TestPlanetExplorer.testProveraDaLiOdeNapredJednom OK
+RefactoringAction 1496945519225 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1496945522741 TestPlanetExplorer.java RENAME test=>void testProveraDa FIELD
+RefactoringAction 1496945523755 TestPlanetExplorer.java RENAME testProveraDa=>void testProveraDaLi FIELD
+RefactoringAction 1496945527275 TestPlanetExplorer.java RENAME testProveraDaLi=>void testProveraDaLiIdeNazad FIELD
+RefactoringAction 1496945528787 TestPlanetExplorer.java RENAME testProveraDaLiIdeNazad=>void testProveraDaLiIdeNazadZaJ FIELD
+RefactoringAction 1496945531800 TestPlanetExplorer.java RENAME testProveraDaLiIdeNazadZaJ=>void testProveraDaLiIdeNazadZaJedan() METHOD
+RefactoringAction 1496946398151 PlanetExplorer.java RENAME pozicijaNaMapi(int, int)=>String pozicijaNaMapi(int, int, String) METHOD
+EditAction 1496946471204 TestPlanetExplorer.java 808 3 9 2

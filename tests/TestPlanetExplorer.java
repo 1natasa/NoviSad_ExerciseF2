@@ -15,11 +15,19 @@ public class TestPlanetExplorer {
 		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
 		String putanja ="f";
 		String pozicija=planeta.executeCommand(putanja);
-		assertEquals("(0,1)",pozicija);
+		assertEquals("(0,1,N)",pozicija);
 		
 		//String expectedCoordinates= ":(" + Integer.toString(startCoordinates[0]) + "," + Integer.toString(50) +
-			//	"," + Integer.toString(startCoordinates[2])+")";
-		
+			//	"," + Integer.toString(startCoordinates[2])+")";	
+	}
+	
+	@Test
+	public void testProveraDaLiIdeNazadZaJedan()
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
+		String putanja="b";
+		String pozicija=planeta.executeCommand(putanja);
+		assertEquals("(0,0)", pozicija);
 		
 	}
 }
