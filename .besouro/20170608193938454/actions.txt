@@ -86,3 +86,15 @@ UnitTestCaseAction 1496947785300 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496947785302 TestPlanetExplorer.java FAIL
 EditAction 1496947855231 TestPlanetExplorer.java 1878 5 27 4
 EditAction 1496947863784 PlanetExplorer.java 2249 7 10 0
+UnitTestCaseAction 1496947876320 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947876322 TestPlanetExplorer.java OK
+RefactoringAction 1496947898577 TestPlanetExplorer.java ADD void testDaLiUdara FIELD
+RefactoringAction 1496947900591 TestPlanetExplorer.java RENAME testDaLiUdara=>void testDaLiUdaraUP FIELD
+RefactoringAction 1496947902132 TestPlanetExplorer.java RENAME testDaLiUdaraUP=>void testDaLiUdaraUp FIELD
+RefactoringAction 1496947905645 TestPlanetExplorer.java RENAME testDaLiUdaraUp=>void testDaLiUdaraUprepreli() METHOD
+RefactoringAction 1496947930730 TestPlanetExplorer.java RENAME testDaLiUdaraUprepreli()=>void testDaLi() METHOD
+RefactoringAction 1496947933743 TestPlanetExplorer.java RENAME testDaLi()=>void testDaLiIdeVise() METHOD
+RefactoringAction 1496947934756 TestPlanetExplorer.java RENAME testDaLiIdeVise()=>void testDaLiIdeViseKo() METHOD
+RefactoringAction 1496947936269 TestPlanetExplorer.java RENAME testDaLiIdeViseKo()=>void testDaLiIdeViseKorakaN() METHOD
+RefactoringAction 1496947937788 TestPlanetExplorer.java RENAME testDaLiIdeViseKorakaN()=>void testDaLiIdeViseKorakaNapred() METHOD
+EditAction 1496947963071 TestPlanetExplorer.java 2191 6 33 5

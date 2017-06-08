@@ -77,4 +77,18 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	@Test
+	public void testDaLiIdeViseKorakaNapred() throws PlanetExplorerException
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
+		
+		planeta.setxKo(0);
+		planeta.setyKo(0);
+		
+		String putanja="ff";
+		
+		String pozicija=planeta.executeCommand(putanja);
+		assertEquals("(0,2,N)", pozicija);
+	}
+	
 }
