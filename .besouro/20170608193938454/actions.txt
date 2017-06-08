@@ -52,3 +52,11 @@ CompilationAction 1496946701814 TestPlanetExplorer.java
 CompilationAction 1496946821206 TestPlanetExplorer.java
 CompilationAction 1496946821208 TestPlanetExplorer.java
 EditAction 1496946858805 TestPlanetExplorer.java 858 3 11 2
+UnitTestCaseAction 1496946962228 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946962230 TestPlanetExplorer.java FAIL
+RefactoringAction 1496946990115 TestPlanetExplorer.java ADD void testProvera FIELD
+RefactoringAction 1496946991623 TestPlanetExplorer.java RENAME testProvera=>void testProveraDa FIELD
+RefactoringAction 1496946993131 TestPlanetExplorer.java RENAME testProveraDa=>void testProveraDaLi FIELD
+RefactoringAction 1496946996145 TestPlanetExplorer.java RENAME testProveraDaLi=>void testProveraDaLiIdeDesno FIELD
+RefactoringAction 1496947000662 TestPlanetExplorer.java RENAME testProveraDaLiIdeDesno=>void testProveraDaLiIdeDesnoZaJedan() METHOD
+EditAction 1496947334062 TestPlanetExplorer.java 1145 4 17 3

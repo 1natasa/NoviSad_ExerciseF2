@@ -34,4 +34,19 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,S)", pozicija);
 		
 	}
+	
+	@Test 
+	public void testProveraDaLiIdeDesnoZaJedan()
+	{
+		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
+		
+		planeta.setxKo(0);
+		planeta.setyKo(0);
+		
+		String putanja="r";
+		
+		String pozicija=planeta.executeCommand(putanja);
+		assertEquals("(1,0,E)", pozicija);
+	}
+	
 }
