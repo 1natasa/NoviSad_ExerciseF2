@@ -10,3 +10,16 @@ RefactoringAction 1496944941064 TestPlanetExplorer.java RENAME testDa()=>void te
 RefactoringAction 1496944947078 TestPlanetExplorer.java RENAME testProveraDaL()=>void testProveraDaLiOde() METHOD
 RefactoringAction 1496944952093 TestPlanetExplorer.java RENAME testProveraDaLiOde()=>void testProveraDaLiOdeNapredJednom FIELD
 EditAction 1496945022389 PlanetExplorer.java 1305 2 0 0
+CompilationAction 1496945030339 PlanetExplorer.java
+CompilationAction 1496945030340 PlanetExplorer.java
+CompilationAction 1496945030342 PlanetExplorer.java
+CompilationAction 1496945128685 PlanetExplorer.java
+CompilationAction 1496945128688 PlanetExplorer.java
+CompilationAction 1496945128691 PlanetExplorer.java
+RefactoringAction 1496945151948 PlanetExplorer.java ADD void pozicijaNaMapi() METHOD
+RefactoringAction 1496945196084 PlanetExplorer.java REMOVE pozicijaNaMapi() METHOD
+RefactoringAction 1496945288260 PlanetExplorer.java ADD String pozicija FIELD
+RefactoringAction 1496945293280 PlanetExplorer.java RENAME pozicija=>String pozicijaNaMa FIELD
+RefactoringAction 1496945295295 PlanetExplorer.java RENAME pozicijaNaMa=>String pozicijaNaMapi() METHOD
+RefactoringAction 1496945306821 PlanetExplorer.java RENAME pozicijaNaMapi()=>String pozicijaNaMapi(int, int) METHOD
+EditAction 1496945374238 TestPlanetExplorer.java 577 2 5 1

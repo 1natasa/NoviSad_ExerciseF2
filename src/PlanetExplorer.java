@@ -1,7 +1,7 @@
 
 // Before you commit and push write your student ID and finish time here.
 // Finish time:
-// Student ID:
+// Student ID:IT7/2015
 
 public class PlanetExplorer {
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -26,7 +26,15 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		String rezultat="";
-		String [] nizKomandi = command.spli
+		String [] nizKomandi = command.split(",");
+		
+		for(int i=0; i<nizKomandi.length; i++)
+		{
+			if (nizKomandi[i]=="f")
+			{
+				
+			}
+		}
 		
 		return null;
 	}
