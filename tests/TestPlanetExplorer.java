@@ -88,6 +88,7 @@ public class TestPlanetExplorer {
 		String putanja="f,f";
 		
 		String pozicija=planeta.executeCommand(putanja);
+		
 		assertEquals("(0,2,N)", pozicija);
 	}
 	
