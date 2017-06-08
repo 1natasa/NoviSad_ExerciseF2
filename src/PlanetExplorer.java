@@ -17,7 +17,7 @@ public class PlanetExplorer {
 	 */
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -51,7 +51,12 @@ public class PlanetExplorer {
 				stranaSveta="E";
 			} else if (nizKomandi[i]=="l")
 			{
+				
 				xKo--;
+				if (xKo<0) 
+				{
+					throw new PlanetExplorerException("Ne moze da ode na -1,0 poziciju!!");
+				}
 				stranaSveta="W";
 			}
 		}

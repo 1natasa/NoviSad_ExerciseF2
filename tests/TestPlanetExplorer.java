@@ -64,7 +64,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test(expected=PlanetExplorerException.class)
-	public void testDaLiOdeUNedozvoljenuPoziciju()
+	public void testDaLiOdeUNedozvoljenuPoziciju() throws PlanetExplorerException
 	{
 		PlanetExplorer planeta = new PlanetExplorer(3, 3, "(0,2)");
 		
@@ -73,7 +73,7 @@ public class TestPlanetExplorer {
 		
 		String putanja="l";
 		
-		//String pozicija=planeta.executeCommand(putanja); 
+		String pozicija=planeta.executeCommand(putanja); 
 		
 	}
 	

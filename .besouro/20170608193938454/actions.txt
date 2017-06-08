@@ -80,3 +80,8 @@ RefactoringAction 1496947532443 TestPlanetExplorer.java RENAME pro=>void testDaL
 RefactoringAction 1496947533457 TestPlanetExplorer.java RENAME testDaLiO=>void testDaLiOde FIELD
 RefactoringAction 1496947534472 TestPlanetExplorer.java RENAME testDaLiOde=>void testDaLiOdeU FIELD
 EditAction 1496947744844 TestPlanetExplorer.java 1849 5 26 4
+UnitTestCaseAction 1496947758229 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947758231 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496947785300 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947785302 TestPlanetExplorer.java FAIL
+EditAction 1496947855231 TestPlanetExplorer.java 1878 5 27 4
